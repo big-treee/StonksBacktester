@@ -1,0 +1,199 @@
+[
+    {
+        "dataset": [
+            "RELIANCE.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-13_20-17-55",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-13 20:18:34"
+    },
+    {
+        "dataset": [
+            "RELIANCE.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-13_20-55-16",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-13 20:55:38"
+    },
+    {
+        "dataset": [
+            "RELIANCE.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-13_20-59-00",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-13 20:59:34"
+    },
+    {
+        "dataset": [
+            "RELIANCE.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-13_21-01-22",
+        "best_return_strategy": "Buy & Hold",
+        "timestamp": "2026-07-13 21:01:45"
+    },
+    {
+        "dataset": [
+            "HDFCBANK.NS",
+            "RELIANCE.NS",
+            "TCS.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-14_14-39-50",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-14 14:40:43"
+    },
+    {
+        "dataset": [
+            "HDFCBANK.NS",
+            "RELIANCE.NS",
+            "TCS.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-14_14-55-01",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-14 14:56:04"
+    },
+    {
+        "dataset": [
+            "RELIANCE.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-14_15-01-10",
+        "best_return_strategy": "bollinger",
+        "timestamp": "2026-07-14 15:01:45"
+    },
+    {
+        "dataset": [
+            "HDFCBANK.NS",
+            "ICICIBANK.NS",
+            "INFY.NS",
+            "RELIANCE.NS",
+            "TCS.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-14_15-01-48",
+        "best_return_strategy": "Buy & Hold",
+        "timestamp": "2026-07-14 15:04:12"
+    },
+    {
+        "dataset": [
+            "BHARTIARTL.NS",
+            "HDFCBANK.NS",
+            "HINDUNILVR.NS",
+            "ICICIBANK.NS",
+            "INFY.NS",
+            "ITC.NS",
+            "KOTAKBANK.NS",
+            "RELIANCE.NS",
+            "SBIN.NS",
+            "TCS.NS"
+        ],
+        "start_date": "2022-01-01",
+        "end_date": "2026-07-10",
+        "strategies_tested": [
+            "sma",
+            "rsi",
+            "macd",
+            "bollinger",
+            "mean_reversion",
+            "donchian",
+            "momentum",
+            "ema"
+        ],
+        "results_dir": "research/comparisons/comp_2026-07-14_15-04-17",
+        "best_return_strategy": "Buy & Hold",
+        "timestamp": "2026-07-14 15:07:12"
+    }
+]

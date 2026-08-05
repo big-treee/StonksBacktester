@@ -1,0 +1,76 @@
+broker:
+  charges:
+    enabled: true
+  commission_model: Zerodha
+  name: zerodha
+  product: cnc
+  slippage_model: ZeroSlippage
+data:
+  end_date: '2026-07-10'
+  source: yahoo
+  start_date: '2022-01-01'
+  symbols:
+  - RELIANCE.NS
+  - TCS.NS
+  - HDFCBANK.NS
+  warmup_days: 300
+initial_capital: 100000
+logging:
+  directory: logs
+  level: INFO
+market:
+  country: india
+  currency: INR
+  exchange: NSE
+  timezone: Asia/Kolkata
+optimization:
+  enabled: false
+  method: grid
+  parameters:
+    long_window:
+    - 100
+    - 150
+    - 200
+    short_window:
+    - 10
+    - 20
+    - 30
+  workers: 4
+reports:
+  benchmark: ^NSEI
+  charts: true
+  html: true
+  pdf: false
+research:
+  output_directory: "research/latest"
+  archive_old_runs: true
+  save_debug_logs: true
+  save_trade_replay: true
+  save_daily_decisions: true
+  generate_html: false
+  generate_png: false
+  overwrite_latest: false
+  html: true
+  pdf: false
+risk:
+  position_sizer:
+    name: FixedShares
+    parameters:
+      shares: 100
+  validators:
+  - name: MaxPositionSize
+    parameters:
+      max_shares: 500
+  - name: MaxPortfolioExposure
+    parameters:
+      max_exposure_pct: 1.0
+  - name: SufficientCashValidator
+    parameters: {}
+  - name: MaxOpenPositions
+    parameters:
+      max_positions: 10
+strategy:
+  name: sma
+  parameters:
+    long_window: 200
+    short_window: 50
